@@ -38,21 +38,21 @@ class _ContadorPageState extends State<ContadorPage> {
         SizedBox(width: 5.0),
         FloatingActionButton(
           onPressed: _reset,
-          child: Icon(Icons.add),
+          child: Icon(Icons.exposure_zero),
         ),
         Expanded(
           child: SizedBox(),
         ),
         FloatingActionButton(
           onPressed: _sumar,
-          child: Icon(Icons.add_a_photo),
+          child: Icon(Icons.add),
         ),
         SizedBox(
           width: 5.0,
         ),
         FloatingActionButton(
           onPressed: _restar,
-          child: Icon(Icons.accessibility),
+          child: Icon(Icons.remove),
         ),
         SizedBox(width: 5.0),
       ],
